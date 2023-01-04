@@ -21,7 +21,7 @@ function create_custom()
 #版本号,用日期
 #VERSION=$(TZ='Asia/Shanghai' date +%Y%m%d.%H%M)
 valtime=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')
-MYINFO="'编译日期 $valtime by tick-guo(https://github.com/tick-guo/openwrt-rom),恩山论坛(https://www.right.com.cn/forum/home.php?mod=space&uid=715099&do=thread&view=me&from=space)'"
+MYINFO="'编译日期 $valtime'"
 echo $MYINFO
 #自定义lan ip, 设置中国时区
 mkdir -p files/etc/uci-defaults
